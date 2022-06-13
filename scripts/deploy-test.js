@@ -8,8 +8,6 @@ async function main() {
 
   await test.deployed();
   console.log("TestDependency deployed to:", test.address);
-
-  await test.addMyselfToAllowedUser()
 }
 
 main()
